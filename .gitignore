@@ -1,0 +1,13 @@
+.idea
+*.iml
+.vscode
+/node_modules/
+pkg
+bin
+build
+.DS_Store 
+*/.DS_Store
+*.swp
+.env.*.local
+server/node_modules/
+yarn-error.log

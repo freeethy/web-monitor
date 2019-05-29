@@ -1,0 +1,607 @@
+[2019-05-29T15:34:42.926] [INFO] common - { request:
+   { method: 'POST',
+     url: '/upload',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '10',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/upload',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-05-29T15:35:03.830] [INFO] common - { request:
+   { method: 'POST',
+     url: '/upload',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '10',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/upload',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-05-29T15:35:04.648] [INFO] common - { request:
+   { method: 'POST',
+     url: '/upload',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '10',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/upload',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-05-29T15:54:50.228] [ERROR] app - { request:
+   { method: 'POST',
+     url: '/behaviorInfo',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '18',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/behaviorInfo',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
+    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at app.use (C:\a-miracle\project\server\index.js:49:11)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 0
+[2019-05-29T15:55:00.665] [ERROR] app - { request:
+   { method: 'POST',
+     url: '/behaviorInfo',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '18',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/behaviorInfo',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
+    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at app.use (C:\a-miracle\project\server\index.js:49:11)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 0
+[2019-05-29T15:55:08.146] [INFO] common - { request:
+   { method: 'POST',
+     url: '/upload',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '10',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/upload',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-05-29T15:56:20.442] [ERROR] app - { request:
+   { method: 'POST',
+     url: '/behaviorInfo',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '18',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/behaviorInfo',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:23)
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
+    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at app.use (C:\a-miracle\project\server\index.js:49:11)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 0
+[2019-05-29T15:58:39.534] [ERROR] app - { request:
+   { method: 'POST',
+     url: '/behaviorInfo',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '45',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/behaviorInfo',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
+    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
+    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at app.use (C:\a-miracle\project\server\index.js:49:11)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 0
+[2019-05-29T15:59:16.481] [ERROR] app - { request:
+   { method: 'POST',
+     url: '/behaviorInfo',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '45',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/behaviorInfo',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
+    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
+    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at app.use (C:\a-miracle\project\server\index.js:49:11)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 0
+[2019-05-29T16:05:04.579] [DEBUG] index - This is in the route
+[2019-05-29T16:05:07.531] [DEBUG] index - This is in the route
+[2019-05-29T16:05:07.608] [DEBUG] index - This is in the route
+[2019-05-29T16:05:16.824] [DEBUG] index - This is in the route
+[2019-05-29T16:05:18.961] [DEBUG] index - This is in the route
+[2019-05-29T16:05:32.240] [DEBUG] index - This is in the route
+[2019-05-29T16:05:32.340] [DEBUG] index - This is in the route
+[2019-05-29T16:05:40.650] [DEBUG] index - This is in the route
+[2019-05-29T16:05:42.429] [DEBUG] index - This is in the route
+[2019-05-29T16:06:14.260] [DEBUG] index - This is in the route
+[2019-05-29T16:06:18.915] [DEBUG] index - This is in the route
+[2019-05-29T16:06:21.007] [DEBUG] index - This is in the route
+[2019-05-29T16:06:22.332] [DEBUG] index - This is in the route
+[2019-05-29T16:06:24.238] [DEBUG] index - This is in the route
+[2019-05-29T16:06:24.908] [DEBUG] index - This is in the route
+[2019-05-29T16:06:31.020] [DEBUG] index - This is in the route
+[2019-05-29T16:06:32.343] [DEBUG] index - This is in the route
+[2019-05-29T16:06:49.465] [DEBUG] index - This is in the route
+[2019-05-29T16:06:51.115] [DEBUG] index - This is in the route
+[2019-05-29T16:06:51.732] [DEBUG] index - This is in the route
+[2019-05-29T16:09:35.898] [ERROR] app - { request:
+   { method: 'POST',
+     url: '/behaviorInfo',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '45',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/behaviorInfo',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
+    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
+    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at app.use (C:\a-miracle\project\server\index.js:49:11)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 0
+[2019-05-29T16:09:49.805] [ERROR] app - { request:
+   { method: 'POST',
+     url: '/behaviorInfo',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '45',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/behaviorInfo',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
+    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
+    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at app.use (C:\a-miracle\project\server\index.js:49:11)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 0
+[2019-05-29T16:09:53.402] [INFO] common - { request:
+   { method: 'POST',
+     url: '/upload',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '10',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/upload',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-05-29T16:11:33.683] [ERROR] app - { request:
+   { method: 'POST',
+     url: '/behaviorInfo',
+     header:
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '45',
+        accept: 'application/json, text/plain, */*',
+        origin: 'http://localhost:3003',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+        'content-type': 'application/json;charset=UTF-8',
+        referer: 'http://localhost:3003/resetPwd',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      { vary: 'Accept-Encoding',
+        'access-control-allow-origin': '*',
+        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
+        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        'access-control-allow-credentials': 'true',
+        'x-powered-by': '3.2.1',
+        'content-type': 'application/json;charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/behaviorInfo',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
+    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
+    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
+    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at app.use (C:\a-miracle\project\server\index.js:49:11)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 0
+[2019-05-29T16:22:57.409] [DEBUG] index - This is in the route
+[2019-05-29T16:22:58.811] [DEBUG] index - This is in the route
+[2019-05-29T16:23:23.861] [DEBUG] index - This is in the route
+[2019-05-29T16:23:37.943] [DEBUG] index - This is in the route
+[2019-05-29T16:37:40.693] [DEBUG] index - This is in the route
+[2019-05-29T16:37:42.582] [DEBUG] index - This is in the route
+[2019-05-29T16:43:40.670] [DEBUG] index - This is in the route
+[2019-05-29T16:43:54.379] [DEBUG] index - This is in the route
+[2019-05-29T16:43:58.660] [DEBUG] index - This is in the route
+[2019-05-29T16:44:05.480] [DEBUG] index - This is in the route
+[2019-05-29T16:44:09.660] [DEBUG] index - This is in the route
+[2019-05-29T16:44:18.057] [DEBUG] index - This is in the route
+[2019-05-29T16:44:22.557] [DEBUG] index - This is in the route
+[2019-05-29T16:44:27.824] [DEBUG] index - This is in the route
+[2019-05-29T16:44:29.248] [DEBUG] index - This is in the route
+[2019-05-29T16:44:33.479] [DEBUG] index - This is in the route
+[2019-05-29T16:44:34.969] [DEBUG] index - This is in the route
+[2019-05-29T16:44:36.677] [DEBUG] index - This is in the route
+[2019-05-29T16:45:41.276] [DEBUG] index - This is in the route
+[2019-05-29T16:45:41.359] [DEBUG] index - This is in the route
+[2019-05-29T16:45:42.990] [DEBUG] index - This is in the route
+[2019-05-29T16:45:43.509] [DEBUG] index - This is in the route
+[2019-05-29T16:45:44.311] [DEBUG] index - This is in the route
+[2019-05-29T16:45:45.209] [DEBUG] index - This is in the route
+[2019-05-29T16:45:48.409] [DEBUG] index - This is in the route
+[2019-05-29T16:45:49.506] [DEBUG] index - This is in the route
+[2019-05-29T16:45:52.945] [DEBUG] index - This is in the route
+[2019-05-29T16:46:21.746] [DEBUG] index - This is in the route
+[2019-05-29T16:46:21.841] [DEBUG] index - This is in the route
+[2019-05-29T16:46:24.717] [DEBUG] index - This is in the route
+[2019-05-29T16:46:28.310] [DEBUG] index - This is in the route
+[2019-05-29T16:46:33.902] [DEBUG] index - This is in the route
+[2019-05-29T16:46:39.412] [DEBUG] index - This is in the route
+[2019-05-29T16:46:49.807] [DEBUG] index - This is in the route
+[2019-05-29T16:46:55.287] [DEBUG] index - This is in the route
+[2019-05-29T16:46:55.868] [DEBUG] index - This is in the route
+[2019-05-29T16:47:44.357] [DEBUG] index - This is in the route
+[2019-05-29T16:48:27.089] [DEBUG] index - This is in the route
+[2019-05-29T16:48:27.171] [DEBUG] index - This is in the route
+[2019-05-29T16:48:30.851] [DEBUG] index - This is in the route
+[2019-05-29T16:48:36.587] [DEBUG] index - This is in the route
+[2019-05-29T16:48:36.687] [DEBUG] index - This is in the route
+[2019-05-29T16:51:52.560] [DEBUG] index - This is in the route
+[2019-05-29T17:09:16.658] [DEBUG] index - This is in the route
+[2019-05-29T17:09:23.932] [DEBUG] index - This is in the route
+[2019-05-29T17:09:24.606] [DEBUG] index - This is in the route
+[2019-05-29T17:09:38.558] [DEBUG] index - This is in the route
+[2019-05-29T17:09:39.352] [DEBUG] index - This is in the route
+[2019-05-29T17:18:28.659] [DEBUG] index - This is in the route
+[2019-05-29T17:29:46.487] [DEBUG] index - This is in the route
+[2019-05-29T17:31:20.985] [DEBUG] index - This is in the route
+[2019-05-29T17:31:22.232] [DEBUG] index - This is in the route
+[2019-05-29T17:31:22.935] [DEBUG] index - This is in the route
+[2019-05-29T17:33:42.234] [DEBUG] index - This is in the route
+[2019-05-29T17:43:25.054] [DEBUG] index - This is in the route
+[2019-05-29T17:43:32.256] [DEBUG] index - This is in the route
+[2019-05-29T17:43:33.815] [DEBUG] index - This is in the route
+[2019-05-29T17:44:46.782] [DEBUG] index - This is in the route
+[2019-05-29T17:44:46.860] [DEBUG] index - This is in the route
+[2019-05-29T17:45:07.963] [DEBUG] index - This is in the route
+[2019-05-29T17:45:11.176] [DEBUG] index - This is in the route
+[2019-05-29T17:46:57.805] [DEBUG] index - This is in the route
+[2019-05-29T17:46:58.745] [DEBUG] index - This is in the route
+[2019-05-29T17:47:05.412] [DEBUG] index - This is in the route
+[2019-05-29T17:47:37.478] [DEBUG] index - This is in the route
+[2019-05-29T17:49:48.627] [DEBUG] index - This is in the route
+[2019-05-29T17:49:50.628] [DEBUG] index - This is in the route
+[2019-05-29T17:49:50.979] [DEBUG] index - This is in the route
+[2019-05-29T17:51:50.277] [DEBUG] index - This is in the route

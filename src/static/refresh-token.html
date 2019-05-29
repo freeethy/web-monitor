@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="//cdn.bootcss.com/oidc-client/1.4.1/oidc-client.min.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        new Oidc.UserManager().signinSilentCallback().then(()=>{
+            manager.getUser().then(user => {
+                if(user){
+                    user=JSON.stringify(user)
+                    localStorage.setItem('user', user)
+                }else{
+                    manager.signinRedirect();
+                }
+            }).catch(error=>{
+                console.log(error)
+                manager.signinRedirect();
+            })
+        })
+    </script>
+</body>
+</html>
