@@ -2,10 +2,10 @@ const Sequelize = require("sequelize");
 const sequelize = new Sequelize("monitor_db", "root", "123456", {
   host: "localhost",
   dialect: "mysql",
-  operatorsAliases: false,
+  // operatorsAliases: false,
   dialectOptions: {
     charset: "utf8mb4",
-    collate: "utf8mb4_unicode_ci",
+    // collate: "utf8mb4_unicode_ci",
     supportBigNumbers: true,
     bigNumberStrings: true
   },

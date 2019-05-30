@@ -9,6 +9,7 @@ const BehaviorInfoController = require("../controllers/behaviorInfo");
 router.post("/upload", CommonController.uploadLog);
 
 router.post("/behaviorInfo", BehaviorInfoController.create);
+router.get("/getBehaviorInfoList", BehaviorInfoController.getBehaviorInfoList);
 
 router
   //   .use("/api/v1", apiRoutes.routes(), apiRoutes.allowMethods())
