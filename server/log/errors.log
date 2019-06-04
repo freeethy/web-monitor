@@ -1,373 +1,12 @@
-[2019-05-29T15:54:50.228] [ERROR] app - { request:
+[2019-06-04T13:51:12.229] [ERROR] app - { request:
    { method: 'POST',
      url: '/behaviorInfo',
      header:
       { host: '127.0.0.1:3000',
         connection: 'keep-alive',
-        'content-length': '18',
-        accept: 'application/json, text/plain, */*',
-        origin: 'http://localhost:3003',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json;charset=UTF-8',
-        referer: 'http://localhost:3003/resetPwd',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token u in JSON at position 0
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-29T15:55:00.665] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '18',
-        accept: 'application/json, text/plain, */*',
-        origin: 'http://localhost:3003',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json;charset=UTF-8',
-        referer: 'http://localhost:3003/resetPwd',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token u in JSON at position 0
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-29T15:56:20.442] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '18',
-        accept: 'application/json, text/plain, */*',
-        origin: 'http://localhost:3003',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json;charset=UTF-8',
-        referer: 'http://localhost:3003/resetPwd',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token u in JSON at position 0
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-29T15:58:39.534] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '45',
-        accept: 'application/json, text/plain, */*',
-        origin: 'http://localhost:3003',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json;charset=UTF-8',
-        referer: 'http://localhost:3003/resetPwd',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-29T15:59:16.481] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '45',
-        accept: 'application/json, text/plain, */*',
-        origin: 'http://localhost:3003',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json;charset=UTF-8',
-        referer: 'http://localhost:3003/resetPwd',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-29T16:09:35.898] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '45',
-        accept: 'application/json, text/plain, */*',
-        origin: 'http://localhost:3003',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json;charset=UTF-8',
-        referer: 'http://localhost:3003/resetPwd',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-29T16:09:49.805] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '45',
-        accept: 'application/json, text/plain, */*',
-        origin: 'http://localhost:3003',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json;charset=UTF-8',
-        referer: 'http://localhost:3003/resetPwd',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-29T16:11:33.683] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '45',
-        accept: 'application/json, text/plain, */*',
-        origin: 'http://localhost:3003',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json;charset=UTF-8',
-        referer: 'http://localhost:3003/resetPwd',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } TypeError: BehaviorInfoModel.createBehaviorInfo is not a function
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:41)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:01:36.742] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '1331',
+        'content-length': '8508',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
         accept: 'application/json',
         origin: 'http://localhost:3005',
         'user-agent':
@@ -380,99 +19,8 @@
    { status: 404,
      message: 'Not Found',
      header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1236
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:01:51.774] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '3495',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 2280
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:02:06.720] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '2725',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
+      [Object: null prototype] {
+        vary: 'Accept-Encoding',
         'access-control-allow-origin': '*',
         'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
         'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
@@ -485,7 +33,7 @@
   res: '<original node res>',
   socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 493
     at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
+    at bulkCreate (C:\a-miracle\project\server\controllers\behaviorInfo.js:29:23)
     at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
     at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
     at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
@@ -499,13 +47,15 @@
     at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
     at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
     at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:03:26.746] [ERROR] app - { request:
+[2019-06-04T13:51:17.194] [ERROR] app - { request:
    { method: 'POST',
      url: '/behaviorInfo',
      header:
       { host: '127.0.0.1:3000',
         connection: 'keep-alive',
-        'content-length': '576',
+        'content-length': '8487',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
         accept: 'application/json',
         origin: 'http://localhost:3005',
         'user-agent':
@@ -518,145 +68,8 @@
    { status: 404,
      message: 'Not Found',
      header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 481
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:03:41.706] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '2994',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1582
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:04:26.753] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '5623',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 806
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:04:56.743] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '4845',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
+      [Object: null prototype] {
+        vary: 'Accept-Encoding',
         'access-control-allow-origin': '*',
         'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
         'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
@@ -669,7 +82,7 @@
   res: '<original node res>',
   socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 2280
     at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:8:23)
+    at bulkCreate (C:\a-miracle\project\server\controllers\behaviorInfo.js:29:23)
     at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
     at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
     at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
@@ -683,13 +96,15 @@
     at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
     at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
     at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:05:51.779] [ERROR] app - { request:
+[2019-06-04T13:52:02.256] [ERROR] app - { request:
    { method: 'POST',
      url: '/behaviorInfo',
      header:
       { host: '127.0.0.1:3000',
         connection: 'keep-alive',
-        'content-length': '5555',
+        'content-length': '21875',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
         accept: 'application/json',
         origin: 'http://localhost:3005',
         'user-agent':
@@ -702,7 +117,8 @@
    { status: 404,
      message: 'Not Found',
      header:
-      { vary: 'Accept-Encoding',
+      [Object: null prototype] {
+        vary: 'Accept-Encoding',
         'access-control-allow-origin': '*',
         'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
         'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
@@ -713,9 +129,9 @@
   originalUrl: '/behaviorInfo',
   req: '<original node req>',
   res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1782
+  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1386
     at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
+    at bulkCreate (C:\a-miracle\project\server\controllers\behaviorInfo.js:29:23)
     at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
     at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
     at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
@@ -729,13 +145,15 @@
     at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
     at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
     at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:05:56.698] [ERROR] app - { request:
+[2019-06-04T13:52:07.192] [ERROR] app - { request:
    { method: 'POST',
      url: '/behaviorInfo',
      header:
       { host: '127.0.0.1:3000',
         connection: 'keep-alive',
-        'content-length': '1585',
+        'content-length': '3921',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
         accept: 'application/json',
         origin: 'http://localhost:3005',
         'user-agent':
@@ -748,191 +166,8 @@
    { status: 404,
      message: 'Not Found',
      header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1490
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:06:11.716] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '5419',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1582
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:06:16.697] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '3248',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 792
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:06:51.710] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '1981',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1886
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:06:56.697] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '6087',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
+      [Object: null prototype] {
+        vary: 'Accept-Encoding',
         'access-control-allow-origin': '*',
         'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
         'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
@@ -945,7 +180,7 @@
   res: '<original node res>',
   socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 2280
     at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
+    at bulkCreate (C:\a-miracle\project\server\controllers\behaviorInfo.js:29:23)
     at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
     at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
     at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
@@ -959,13 +194,15 @@
     at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
     at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
     at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:07:01.720] [ERROR] app - { request:
+[2019-06-04T13:52:47.228] [ERROR] app - { request:
    { method: 'POST',
      url: '/behaviorInfo',
      header:
       { host: '127.0.0.1:3000',
         connection: 'keep-alive',
-        'content-length': '2033',
+        'content-length': '18322',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
         accept: 'application/json',
         origin: 'http://localhost:3005',
         'user-agent':
@@ -978,53 +215,8 @@
    { status: 404,
      message: 'Not Found',
      header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1938
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:07:46.708] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '5745',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
+      [Object: null prototype] {
+        vary: 'Accept-Encoding',
         'access-control-allow-origin': '*',
         'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
         'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
@@ -1037,421 +229,7 @@
   res: '<original node res>',
   socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 2280
     at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:07:51.694] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '1141',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1046
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:08:25.752] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '7540',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1046
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:10:10.750] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '887',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 792
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:10:15.748] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '3948',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1886
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:12:45.092] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '4357',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 620
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:12:45.121] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '1677',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1582
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:13:02.955] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '1677',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 1582
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:13:33.363] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '13002',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 2280
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
-    at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16
-    at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
-    at C:\a-miracle\project\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\a-miracle\project\node_modules\koa-router\lib\router.js:351:31)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at app.use (C:\a-miracle\project\server\index.js:49:11)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at filter (C:\a-miracle\project\server\node_modules\koa-json\index.js:25:12)
-    at dispatch (C:\a-miracle\project\server\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\a-miracle\project\server\node_modules\koa-bodyparser\index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7) 0
-[2019-05-30T17:13:38.346] [ERROR] app - { request:
-   { method: 'POST',
-     url: '/behaviorInfo',
-     header:
-      { host: '127.0.0.1:3000',
-        connection: 'keep-alive',
-        'content-length': '2375',
-        accept: 'application/json',
-        origin: 'http://localhost:3005',
-        'user-agent':
-         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-        'content-type': 'application/json',
-        referer: 'http://localhost:3005/',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
-  response:
-   { status: 404,
-     message: 'Not Found',
-     header:
-      { vary: 'Accept-Encoding',
-        'access-control-allow-origin': '*',
-        'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With, Accept',
-        'access-control-allow-methods': 'PUT,POST,GET,DELETE,OPTIONS',
-        'access-control-allow-credentials': 'true',
-        'x-powered-by': '3.2.1',
-        'content-type': 'application/json;charset=utf-8' } },
-  app: { subdomainOffset: 2, proxy: false, env: 'development' },
-  originalUrl: '/behaviorInfo',
-  req: '<original node req>',
-  res: '<original node res>',
-  socket: '<original node socket>' } SyntaxError: Unexpected token $ in JSON at position 2280
-    at JSON.parse (<anonymous>)
-    at create (C:\a-miracle\project\server\controllers\behaviorInfo.js:7:23)
+    at bulkCreate (C:\a-miracle\project\server\controllers\behaviorInfo.js:30:23)
     at dispatch (C:\a-miracle\project\node_modules\koa-compose\index.js:44:32)
     at next (C:\a-miracle\project\node_modules\koa-compose\index.js:45:18)
     at C:\a-miracle\project\node_modules\koa-router\lib\router.js:346:16

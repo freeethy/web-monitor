@@ -116,41 +116,31 @@ export default class ResetPwd extends Component {
     return (
       <React.Fragment>
         <Header />
-        <Button
-          onClick={() => {
-            commonActions.point({ test: 1 });
-          }}
-        >
-          test
-        </Button>
-        <Button
-          onClick={() => {
-            commonActions.behaviorInfo({
-              behaviorType: 1,
-              happenTime: new Date().getTime()
-            });
-          }}
-        >
-          post behaviorInfo
-        </Button>
+
         <MainContent
           header="重置密码"
           footer={footer}
           className="reset-container"
         >
-          <Spin spinning={loading}>
-            {validLink ? (
-              <PwdContent
-                key={this.key}
-                type={0}
-                form={form}
-                username={username}
-                usernum={usernum}
-              />
-            ) : (
-              <LinkInvalid />
-            )}
-          </Spin>
+          <React.Fragment>
+            <Button
+              onClick={() => {
+                commonActions.point({ test: 1 });
+              }}
+            >
+              test
+            </Button>
+            <Button
+              onClick={() => {
+                commonActions.behaviorInfo({
+                  behaviorType: 1,
+                  happenTime: new Date().getTime()
+                });
+              }}
+            >
+              post behaviorInfo
+            </Button>
+          </React.Fragment>
         </MainContent>
         <Footer />
       </React.Fragment>

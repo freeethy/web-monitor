@@ -1,17 +1,24 @@
 const db = require("../config/db");
 const Sequelize = db.sequelize;
 const BehaviorInfo = Sequelize.import("../schema/behaviorInfo");
+const Utils = require("../util/utils.js");
 
 BehaviorInfo.sync({ force: false });
 
 class BehaviorInfoModel {
-  static async createBehaviorInfo(data) {
+  static async create(data) {
     return await BehaviorInfo.create({
       ...data
     });
   }
 
-  static async updateBehaviorInfo(id, data) {
+  static async bulkCreate(data) {
+    return await BehaviorInfo.bulkCreate([...data], {
+      ignoreDuplicates: true
+    });
+  }
+
+  static async update(id, data) {
     await BehaviorInfo.update(
       {
         ...data
@@ -25,11 +32,11 @@ class BehaviorInfoModel {
     return true;
   }
 
-  static async getBehaviorInfoList() {
+  static async getList() {
     return await BehaviorInfo.findAndCountAll();
   }
 
-  static async getBehaviorInfoDetail(id) {
+  static async getDetail(id) {
     return await BehaviorInfo.findOne({
       where: {
         id
@@ -37,7 +44,7 @@ class BehaviorInfoModel {
     });
   }
 
-  static async deleteBehaviorInfo(id) {
+  static async delete(id) {
     await BehaviorInfo.destroy({
       where: {
         id
@@ -46,14 +53,14 @@ class BehaviorInfoModel {
     return true;
   }
 
-  //   static async deleteBehaviorInfoFifteenDaysAgo(days) {
-  //     const timeScope = Utils.addDays(0 - days) + " 00:00:00";
-  //     var querySql =
-  //       "delete from behaviorInfos where createdAt<'" + timeScope + "'";
-  //     return await Sequelize.query(querySql, {
-  //       type: Sequelize.QueryTypes.DELETE
-  //     });
-  //   }
+  static async deleteDaysAgo(days) {
+    const timeScope = Utils.addDays(0 - days) + " 00:00:00";
+    var querySql =
+      "delete from behaviorInfos where createdAt<'" + timeScope + "'";
+    return await Sequelize.query(querySql, {
+      type: Sequelize.QueryTypes.DELETE
+    });
+  }
 
   static async getBehaviorsByUser(
     webMonitorIdSql,

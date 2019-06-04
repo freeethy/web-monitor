@@ -8,8 +8,13 @@ const BehaviorInfoController = require("../controllers/behaviorInfo");
 
 router.post("/upload", CommonController.uploadLog);
 
-router.post("/behaviorInfo", BehaviorInfoController.create);
+// 行为信息
+router.post("/behaviorInfo", BehaviorInfoController.bulkCreate);
 router.get("/getBehaviorInfoList", BehaviorInfoController.getBehaviorInfoList);
+router.get(
+  "/deleteBehaviorInfoDaysAgo",
+  BehaviorInfoController.deleteBehaviorInfoDaysAgo
+);
 
 router
   //   .use("/api/v1", apiRoutes.routes(), apiRoutes.allowMethods())

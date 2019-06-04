@@ -30,7 +30,8 @@
     "build:staging": "cross-env ENV=staging JS_ENV=staging webpack --env=prod --mode production",
     "build:prod": "cross-env ENV=prod JS_ENV=production webpack --env=prod --mode production",
     "build:report": "cross-env ENV=dev NEED_REPORT=true webpack --env=prod --mode production",
-    "dll": "webpack -p --progress --config webpack.dll.js"
+    "start:lib": "cross-env JS_ENV=development webpack-dev-server --mode development --color --config ./webpack.lib.js --hot --inline --host 0.0.0.0",
+    "build:lib": "cross-env JS_ENV=production webpack --env=prod --mode production --config ./webpack.lib.js"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
